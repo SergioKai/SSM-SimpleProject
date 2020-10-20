@@ -9,6 +9,7 @@
             color: black;
             font-size: 18px;
         }
+
         h3 {
             width: 180px;
             height: 38px;
@@ -24,6 +25,9 @@
 
 <h3>
     <a href="${pageContext.request.contextPath}/book/allBook">点击进入列表页</a>
+</h3>
+<h3>
+    <a href="${pageContext.request.contextPath}/goUpload">点击进入上传下载页</a>
 </h3>
 </body>
 </html>
